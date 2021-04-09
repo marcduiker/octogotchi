@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: marcduiker/octogotchi-backend
+    - uses: marcduiker/octogotchi-backend@action-start
