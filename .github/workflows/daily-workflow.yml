@@ -1,6 +1,7 @@
 on: 
-  schedule:
-    - cron: "0,15,30,45 * * * 1-5"
+  #schedule:
+  #  - cron: "0,15,30,45 * * * 1-5"
+
   # trigger the workflow manually  
   workflow_dispatch:
 
