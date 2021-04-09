@@ -1,0 +1,12 @@
+on: 
+  schedule:
+    - cron: "* 0/15 * * 1-5"
+  # trigger the workflow manually  
+  workflow_dispatch:
+
+jobs:
+  daily-run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: marcduiker/octogotchi-backend
